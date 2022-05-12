@@ -28,14 +28,14 @@ stages
  {    
   steps
    {
-    echo "This is Deploy project run with Docker tool ................"
+    echo "This is Deploy project run  Docker tool ............."
    }
   }
  stage('Monitor')
  {    
   steps
    {
-    echo "This is Monitoring project run with Splunk tool ................"
+    echo "This is Monitoring project run with Splunk tool ........"
    }
   }
 }
