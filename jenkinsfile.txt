@@ -14,14 +14,14 @@ stages
  {    
   steps
    {
-    echo "This is Build project run maven tool ................"
+    echo "This is Build project run maven tool ..........."
    }
   }
  stage('Test')
  {
   steps
   {
-    echo "This is Test project run with Selenium tool ................"
+    echo "This is Test project run  Selenium tool ................"
   }
  } 
  stage('Deploy')
